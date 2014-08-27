@@ -1,0 +1,16 @@
+;LIBRARY        "HFQuote"
+
+EXPORTS
+	CreateApi		@1
+	ReqConnect		@2
+	ReqUserLogin	@3
+	ReqUserLogout	@4
+	GetTradingDay	@5
+	ReqSubMarketData	@6
+	ReqUnSubMarketData	@7
+	RegOnFrontConnected	@8
+	RegOnRspUserLogin	@9
+	RegOnRspUserLogout	@10
+	RegOnRtnDepthMarketData	@11
+	RegOnRtnError	@12
+;

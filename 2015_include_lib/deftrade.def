@@ -1,0 +1,29 @@
+;LIBRARY        "HFTrade"
+
+EXPORTS
+	CreateApi	@1
+	ReqConnect	@2
+	ReqUserLogin	@3
+	ReqUserLogout	@4
+	GetTradingDay	@5
+	ReqQryOrder	@6
+	ReqQryTrade	@7
+	ReqQryPosition	@8
+	ReqQryAccount	@9
+	ReqOrderInsert	@10
+	ReqOrderAction	@11
+	RegOnFrontConnected	@12
+	RegOnRspUserLogin	@13
+	RegOnRspUserLogout	@14
+	RegOnRspQryOrder	@15
+	RegOnRspQryTrade	@16
+	RegOnRspQryInstrument	@17
+	RegOnRspQryPosition	@18
+	RegOnRspQryTradingAccount	@19
+	RegOnRtnError	@20
+	RegOnRtnNotice	@21
+	RegOnRtnExchangeStatus	@22
+	RegOnRtnOrder	@23
+	RegOnRtnTrade	@24
+	RegOnRtnCancel	@25
+;
